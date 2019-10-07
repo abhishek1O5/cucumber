@@ -23,7 +23,7 @@ public class Hook extends BaseUtil{
         System.out.println("Opening the browser : Firefox");
 
         //Passing a dummy WebDriver instance step info
-	system.setProperty("webdriver.chrome.driver","c:\\Libs\\chromedriver.exe");
+	system.setProperty("webdriver.chrome.driver","/home/bitnami/chromedriver");
         base.Driver = new ChromeDriver();
     }
 
