@@ -20,11 +20,10 @@ public class Hook extends BaseUtil{
     @Before
     public void InitializeTest() {
 
-        System.out.println("Opening the browser : Firefox");
+        System.out.println("Opening the browser : MOCK");
 
         //Passing a dummy WebDriver instance step info
-	system.setProperty("webdriver.chrome.driver","/home/bitnami/chromedriver");
-        base.Driver = new ChromeDriver();
+        base.StepInfo = "FirefoxDriver";
     }
 
 
@@ -38,3 +37,5 @@ public class Hook extends BaseUtil{
     }
 
 }
+   
+
